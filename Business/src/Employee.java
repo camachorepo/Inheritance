@@ -2,13 +2,13 @@
 public class Employee {
 	
 	
-	long employeeId;
-	String employeeName;
-	String employeeAddress;
-	Long employeePhone;
-	double basicSalary;
-	double specialAllowance = 250.80;
-	double hra = 1000.50;
+	protected long employeeId;
+	protected String employeeName;
+	protected String employeeAddress;
+	protected Long employeePhone;
+	protected double basicSalary;
+	protected double specialAllowance = 250.80;
+	protected double hra = 1000.50;
 
 	public Employee() {}
 	
