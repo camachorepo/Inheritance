@@ -23,8 +23,8 @@ public class Employee {
 		return 	(this.basicSalary + (this.basicSalary * (this.specialAllowance/100)) + (this.basicSalary * (this.hra/100)));
 	}
 	
-	public void calculateTransportAllowance() {
-		basicSalary *=.9;
+	public double calculateTransportAllowance() {
+		return (basicSalary * .1);
 	}
 	
 	

@@ -10,10 +10,8 @@ public class Manager extends Employee {
 		
 	}
 	
-	public void calculateTransportAllowance () {
-		
-		super.basicSalary *=.85; 
-		
+	public double calculateTransportAllowance () {
+		return (super.basicSalary *.15);
 	}
 
 }
